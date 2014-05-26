@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+<style type="text/css">
+
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+#scroller li {
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	background-color: #fafafa;
+	font-size: 14px;
+}
+
+</style>
+
+<title>myScroll</title>
+
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+function loaded(){
+	var wrapper = document.getElementById('wrapper') ;
+	var scroll = new IScroll(wrapper,{ mouseWheel: true }) ;
+}
+</script>
+
+</head>
+<body onload="loaded()">
+<div id="header">iScroll</div>
+
+<div id="wrapper" style="height:200px;width:200px;border:solid 1px #000;overflow:hidden">
+	<div id="scroller">
+		<p>
+			Dan Feldman, Piston Powered：能。勒布朗会帮助他们做到这点的，无论是在直接的还是间接的。在前两场中，他平均每44秒才接一次球——这也是本赛季他场均接球间隔时间最大的两场比赛，在之前的比赛中，他场均每30秒接一次球。作为这个系列赛中最好的球员，他如果能更多的手持球权，将会最大化他的作用，他吸引防守的能力将会极大的帮助他的队友。
+
+Ethan Sherwood, TrueHoop：不能。我觉得这不会发生，在前两场的大部分时间里，步行者打得都比热火好，而且波什两场面对步行者的防守时都表现平庸。我认为热火会赢球，但是不会那么简单。
+
+Micheal Wallace, Heat Index：不能。这轮系列赛对热火来说不可能这么简单。但是这并意味着热火做不到这点。步行者在第二场拼命争取到的机会，在最后5分钟突然就消逝了。这对他们的精神上和身体上都会是一个重大的打击。但是比分依旧是1：1，这轮系列赛远没有结束。
+
+Brian Windhorst, ESPN.com：不能。我至少觉得不能轻松搞定。步行者在这个系列赛中打得不错，他们在第一场里面轻松战胜了热火，在第二场的前43分钟里也领先了对手，而且他们在今年的季后赛客场里一贯表现不错。
+
+Royce Young, Daily Thunder：能。热火有勒布朗-詹姆斯，在我的概念中，只要有他就能轻松搞定很多事情。你在第二场第四节也看到了燃烧了小宇宙之后的勒布朗有多么强——他接管了比赛，用关键跳投和助攻把系列赛的比分变成了1-1。他的能力可不止是让热火四连胜那么简单。
+		</p>
+	</div>
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
